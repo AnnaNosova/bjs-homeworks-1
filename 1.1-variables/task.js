@@ -7,21 +7,21 @@
 
 function averageMark(a, g, p) {
 	
-    // реализуйте здесь задание №1
-    
-	return // ваш ответ;
+	let averageMark = (a + g + p) / 3;
+	
+	return averageMark;
 }
 
 function sayHello(userName) {
 	
-    // реализуйте здесь задание №2
-    
-	return // ваш ответ;
+    return `Привет, мир! Меня зовут ${userName}`;
 }
 
 function calculateFormula() {
     
-	// реализуйте здесь задание №3
-    
-    return // ваш ответ;
+	let x = 2,
+	y = 22,
+	z = 0;
+
+    return taskResult = x * y + 5 * z + x - 1;
 }
